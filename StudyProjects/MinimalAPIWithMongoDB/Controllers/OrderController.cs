@@ -68,12 +68,16 @@ namespace MinimalAPIWithMongoDB.Controllers
                     {
                         var product = await _product.Find(product => product.Id == productId).FirstOrDefaultAsync();
 
+                        if (product == null)
+                            continue;
+
                         productsList.Add(product);
                     }
 
                     order.Products = productsList;
 
                     var client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+
                     order.Client = client;
                 }
 
@@ -97,6 +101,9 @@ namespace MinimalAPIWithMongoDB.Controllers
                 foreach(var productId in order.ProductsId!)
                 {
                     var product = await _product.Find(product => product.Id == productId).FirstOrDefaultAsync();
+
+                    if (product == null)
+                        continue;
 
                     productsList.Add(product);
                 }

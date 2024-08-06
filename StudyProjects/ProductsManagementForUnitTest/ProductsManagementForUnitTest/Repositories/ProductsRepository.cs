@@ -37,7 +37,7 @@ namespace ProductsManagementForUnitTest.Repositories
 
         public async Task<List<Product>> GetProducts()
         {
-            return await _context.Products.ToListAsync();
+           return await _context.Products.ToListAsync();
         }
 
         public async Task UpdateProduct(Product product)

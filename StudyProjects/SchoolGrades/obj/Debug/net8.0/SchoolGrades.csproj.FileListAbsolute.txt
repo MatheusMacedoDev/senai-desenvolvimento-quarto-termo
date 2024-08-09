@@ -1,0 +1,15 @@
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\bin\Debug\net8.0\SchoolGrades.exe
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\bin\Debug\net8.0\SchoolGrades.deps.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\bin\Debug\net8.0\SchoolGrades.runtimeconfig.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\bin\Debug\net8.0\SchoolGrades.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\bin\Debug\net8.0\SchoolGrades.pdb
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.AssemblyInfoInputs.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.AssemblyInfo.cs
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.csproj.CoreCompileInputs.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.sourcelink.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\refint\SchoolGrades.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.pdb
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\SchoolGrades.genruntimeconfig.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\SchoolGrades\obj\Debug\net8.0\ref\SchoolGrades.dll

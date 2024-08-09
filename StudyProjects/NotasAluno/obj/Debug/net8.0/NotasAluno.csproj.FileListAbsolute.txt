@@ -1,0 +1,15 @@
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\bin\Debug\net8.0\NotasAluno.exe
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\bin\Debug\net8.0\NotasAluno.deps.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\bin\Debug\net8.0\NotasAluno.runtimeconfig.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\bin\Debug\net8.0\NotasAluno.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\bin\Debug\net8.0\NotasAluno.pdb
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.AssemblyInfoInputs.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.AssemblyInfo.cs
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.csproj.CoreCompileInputs.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.sourcelink.json
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\refint\NotasAluno.dll
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.pdb
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\NotasAluno.genruntimeconfig.cache
+C:\Users\51116869837\Desktop\senai-desenvolvimento-quarto-termo\StudyProjects\NotasAluno\obj\Debug\net8.0\ref\NotasAluno.dll

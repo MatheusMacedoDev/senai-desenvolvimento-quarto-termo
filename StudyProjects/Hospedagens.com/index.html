@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospedagens.com</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header-banner">
+    <div class="header-banner layout-borders">
         <header>
+            <h1>Hospedagens.com</h1>
             <nav>
-                <a href="">Hotéis</a>
-                <a href="">Contato</a>
-                <a href="">Entrar</a>
-                <a href="">Cadastre-se</a>
+                <div class="navigation-group">
+                    <a href="">Hotéis</a>
+                    <a href="">Contato</a>
+                    <a href="">Entrar</a>
+                </div>
+                <a class="link-button" href="">Cadastre-se</a>
             </nav>
         </header>
         <section class="banner">
@@ -23,52 +27,100 @@
                     procurar pelo local ideal, e realizar a viagem dos seus
                     sonhos
                 </p>
-                <img src="" alt="Mapa do Brasil dividido por regióes">
             </article>
+            <img src="./assets/brazil-map.png" alt="Mapa do Brasil dividido por regióes">
+        </section>
+        <section class="segregated">
+            <article class="something">
+                <img class="logo" src="./assets/icons/local-icon.svg">
+                <p class="text">Qual o local desejado?</p>
+            </article>
+            <article class="something">
+                <img class="logo" src="./assets/icons/checkin-icon.svg">
+                <p class="text">Data chek in</p>
+            </article>
+            <article class="something">
+                <img class="logo" src="./assets/icons/checkin-icon.svg">
+                <p class="text">Data chek out</p>
+            </article>
+            <a href="" class="green-button">
+                Procurar Hotel
+            </a>
         </section>
     </div>
     <main>
-
-        <section class="places">
+        <section class="places layout-borders">
             <article class="place-card">
-                <h3 class="place-title">Angra dos reis</h3>
+                <img class="place-image" src="./assets/angra-dos-reis.jpg" alt="Imagem de Angra dos Reis">
+                <div class="place-division">
+                    <h3 class="place-title">Angra dos reis</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Desfrute de um paraíso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Arraial do cabo</h3>
+                <img class="place-image" src="./assets/arraial-do-cabo.jpg" alt="Imagem de Arraial do Cabo">
+                <div class="place-division">
+                    <h3 class="place-title">Arraial do cabo</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Conecte-se com a natureza em Arraial do Cabo! Nossa pousada está localizada próximo às praias.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Treze Tílias</h3>
+                <img class="place-image" src="./assets/treze-tilias.jpg" alt="Imagem de Treze Tílias">
+                <div class="place-division">
+                    <h3 class="place-title">Treze Tílias</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Viva a experiência de um vilarejo europeu no Brasil! Nossa pousada em Treze Tílias é perfeita.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Ipanema</h3>
+                <img class="place-image" src="./assets/ipanema.jpg" alt="Imagem de Ipanema">
+                <div class="place-division">
+                    <h3 class="place-title">Ipanema</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Explore a rica cultura e história de Ipanema! Nossa pousada é o ponto de partida ideal para conhecer.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Angra dos reis</h3>
+                <img class="place-image" src="./assets/angra-dos-reis.jpg" alt="Imagem de Angra dos Reis">
+                <div class="place-division">
+                    <h3 class="place-title">Angra dos reis</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Desfrute de um paraíso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Arraial do cabo</h3>
+                <img class="place-image" src="./assets/arraial-do-cabo.jpg" alt="Imagem de Arraial do Cabo">
+                <div class="place-division">
+                    <h3 class="place-title">Arraial do cabo</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Conecte-se com a natureza em Arraial do Cabo! Nossa pousada está localizada próximo às praias.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Treze Tílias</h3>
+                <img class="place-image" src="./assets/treze-tilias.jpg" alt="Imagem de Treze Tílias">
+                <div class="place-division">
+                    <h3 class="place-title">Treze Tílias</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Viva a experiência de um vilarejo europeu no Brasil! Nossa pousada em Treze Tílias é perfeita.</p>
             </article>
             <article class="place-card">
-                <h3 class="place-title">Ipanema</h3>
+                <img class="place-image" src="./assets/ipanema.jpg" alt="Imagem de Ipanema">
+                <div class="place-division">
+                    <h3 class="place-title">Ipanema</h3>
+                    <h3 class="place-location">RJ</h3>
+                </div>
                 <p class="place-description">Explore a rica cultura e história de Ipanema! Nossa pousada é o ponto de partida ideal para conhecer.</p>
             </article>
         </section>
-        <section class="advertisement">
+        <section class="advertisement layout-borders">
             <article class="advertisement-text">
-                <h2>Venha conferir os melhores hoteis com as melhores promoções do país</h2>
-                <p>Não perca tempo e venha conferir o que há de melhor na hotelagem brasileira</p>
+                <h2>Venha conferir os melhores <span class="text-blue">hoteis</span> com as melhores <span class="text-green">promoções</span> do país</h2>
+                <p><span class="text-green">Não perca tempo</span> e venha conferir o que há de <span class="text-yellow">melhor</span> na hotelagem brasileira</p>
             </article>
-            <img src="" alt="Ilustração de um baú cheio itens de viagem">
+            <img src="./assets/travel-illustration.png" alt="Ilustração de um baú cheio itens de viagem">
         </section>
     </main>
     <footer>
@@ -76,7 +128,10 @@
             <h2>Fale com um de nossos acessores</h2>
             <p class="email">hospedagens@contato.com.br</p>
             <p class="phone-number">(11) 0800-707-0707</p>
+            <img class="left" src="./assets/bubbles-bg.png">
+            <img class="right" src="./assets/bubbles-bg.png">
         </article>
+        <h2 class="credits">Hospedagens.com</h2>
     </footer>
 </body>
 </html>

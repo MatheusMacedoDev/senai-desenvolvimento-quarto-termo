@@ -1,0 +1,288 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.layout-borders {
+    padding: 0 10vw;
+}
+
+span.text-blue {
+    color: #002777;
+}
+
+span.text-green {
+    color: #019438;
+}
+
+span.text-yellow {
+    color: #FFDF00;
+}
+
+/* Header Banner */
+
+.header-banner {
+    background-image: linear-gradient(to right, #1E52B4 , #002777);
+    color: #fff;
+}
+
+/* Header Banner - Header */
+
+.header-banner > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-banner > header > h1 {
+    font-size: 24px;
+}
+
+.header-banner > header > nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-banner > header > nav .navigation-group {
+    display: flex;
+    gap: 30px;
+}
+
+.header-banner > header > nav a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+.header-banner > header > nav .link-button {
+    padding: 10px 36px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+/* Header Banner - Banner */
+
+.header-banner .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+.header-banner .banner > img {
+    width: 26vw;
+}
+
+.header-banner .banner .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 30vw;
+    padding-bottom: 6%;
+}
+
+.header-banner .banner .text-wrapper h2 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.header-banner .banner .text-wrapper p {
+    font-size: 18px;
+}
+
+/* Segregated */
+
+.segregated {
+    width: 70vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    background-color: #fff;
+    color: #5F5C6B;
+    box-shadow: 5px 5px 2px #00000015;
+}
+
+.segregated .something {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0 3vw;
+
+    border-right: 2px dashed #5F5C6B;
+}
+
+.segregated .something .logo {
+    height: 18px;
+}
+
+.segregated .something .text {
+    font-size: 18px;
+}
+
+.segregated .green-button {
+    color: #fff;
+    background-color: #009C3B;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 14px 28px;
+    margin-left: 40px;
+}
+
+/* Places */
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+.places .place-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 18vw;
+}
+
+.places .place-card .place-image {
+
+    width: 100%;
+    height: 170px;
+
+    border-radius: 8px;
+
+    object-fit: cover;
+}
+
+.places .place-card .place-division {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places .place-card .place-title,
+.places .place-card .place-location {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.places .place-card .place-location {
+    color: #FFDF00;
+}
+
+.places .place-card .place-description {
+    font-size: 14px;
+}
+
+/* Advertisement */
+
+.advertisement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 30px;
+}
+
+.advertisement .advertisement-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 35vw;
+    padding-bottom: 7vh;
+}
+
+.advertisement .advertisement-text h2 {
+    font-size: 28px;
+}
+
+.advertisement .advertisement-text p {
+    font-size: 20px;
+}
+
+.advertisement img {
+    width: 40vw;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 40px;
+    background-image: linear-gradient(to right, #009C3B, #009538);
+}
+
+footer img.left,
+footer img.right {
+    width: 20%;
+    height: 100%;
+
+    position: absolute;
+}
+
+footer img.left {
+    left: 0;
+    top: 0;
+}
+
+footer img.right {
+    right: 0;
+    top: 0;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+footer .footer-text {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    gap: 10px;
+
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+footer .footer-text h2 {
+    margin-bottom: 10px;
+}
+
+footer .credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+
+    padding: 15px 0;
+
+    background-color: #FFDF00;
+    color: #2E2736;
+}

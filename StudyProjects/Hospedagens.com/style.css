@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 .layout-borders {
@@ -68,6 +66,10 @@ span.text-yellow {
     border-radius: 8px;
 }
 
+.header-banner > header > a {
+    display: none;
+}
+
 /* Header Banner - Banner */
 
 .header-banner .banner {
@@ -75,7 +77,9 @@ span.text-yellow {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 0;
+    padding: 40px 0;
+
+    position: relative;
 }
 
 .header-banner .banner > img {
@@ -102,19 +106,26 @@ span.text-yellow {
 /* Segregated */
 
 .segregated {
-    width: 70vw;
+    width: 942px;
+    margin-left: auto;
+    margin-right: auto;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 30px;
+    padding: 24px;
 
     border-radius: 8px;
 
     background-color: #fff;
     color: #5F5C6B;
     box-shadow: 5px 5px 2px #00000015;
+
+    position: absolute;
+    bottom: 14%;
+    left: 0px;
+    right: 0px;
 }
 
 .segregated .something {
@@ -124,7 +135,7 @@ span.text-yellow {
     align-items: center;
     gap: 8px;
 
-    padding: 0 3vw;
+    padding: 0 30px;
 
     border-right: 2px dashed #5F5C6B;
 }
@@ -156,6 +167,8 @@ span.text-yellow {
 
     padding-top: 74px;
     padding-bottom: 74px;
+
+    justify-content: center;
 }
 
 .places .place-card {

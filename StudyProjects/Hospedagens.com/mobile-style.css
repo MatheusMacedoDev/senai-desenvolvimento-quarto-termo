@@ -58,4 +58,10 @@
     .advertisement img {
         width: 100%;
     }
+
+    /* Footer */
+    footer img.left,
+    footer img.right {
+        display: none;
+    }
 }

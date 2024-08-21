@@ -1,0 +1,30 @@
+.box-background {
+    width: 742px;
+    height: 494px;
+
+    background-color: #1E123B;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 48px 36px;
+}
+
+.todo-main {
+    width: 100%;
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.todo-main::-webkit-scrollbar {
+    display: none;
+}

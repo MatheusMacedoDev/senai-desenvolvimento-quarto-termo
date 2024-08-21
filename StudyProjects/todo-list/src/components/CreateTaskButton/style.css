@@ -1,0 +1,17 @@
+.create-task-button {
+    width: 200px;
+    height: 50px;
+
+    background-color: #6C45CE;
+    border: 2px solid #FCFCFC;
+    color: #FCFCFC;
+
+    font-size: 16px;
+
+    border-radius: 8px;
+    align-self: flex-end;
+}
+
+.create-task-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.task-modal-title    {
+    color: #FCFCFC;
+}
+
+.task-description-input {
+    border-radius: 10px;
+    border: 2px solid #FCFCFC;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: #FCFCFC;
+    padding: 20px;
+}
+
+.task-description-input::placeholder {
+    color: #FCFCFC;
+}

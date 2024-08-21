@@ -1,0 +1,17 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8758FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.background-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
